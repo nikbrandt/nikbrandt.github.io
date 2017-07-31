@@ -42,7 +42,7 @@ body {
 #definition {
     margin: 0;
     padding: 0;
-    bottom: 1%;
+    bottom: 0;
     left: 50%;
     position: absolute;
     color: rgba(0, 0, 0, 0);
@@ -65,8 +65,8 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    bottom: 36%;
-    left: 40%;
+    top: 190%;
+    right: 210px;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -86,8 +86,8 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    bottom: 36%;
-    left: 50%;
+    top: 135px;
+    left: 180px;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -107,8 +107,8 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    bottom: 36%;
-    left: 60%;
+    top: 190%;
+    left: 280px;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
