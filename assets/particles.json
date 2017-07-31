@@ -41,13 +41,19 @@
     }
   },
   "interactivity": {
-    "onhover": {
-      "enable": true,
-      "mode": "grab"
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": false
+      },
+      "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 333,
+        "distance": 300,
         "line_linked": {
           "opacity": 1
         }
