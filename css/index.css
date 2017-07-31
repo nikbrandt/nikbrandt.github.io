@@ -22,20 +22,25 @@ body {
     left: 50%;
     position: absolute;
     color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-font-smoothing: antialiased;
+    backface-visibility: hidden;
+}
+
+#aname {
+    animation: fadein 3s;
     font-family: "Roboto", sans-serif;
     font-size: 60px;
     font-weight: 300;
     font-style: italic;
     opacity: 0.8;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    animation: fadein 3s;
     transition: opacity .5s ease-in-out;
 }
 
-#name:hover {
+#aname:hover {
     opacity: 1;
 }
 
@@ -73,7 +78,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     text-decoration: none;
-    animation: fadein 3s;
+    animation: fadein 5s;
     opacity: 0.8;
     transition: opacity .5s ease-in-out;
 }
@@ -94,7 +99,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     text-decoration: none;
-    animation: fadein 3s;
+    animation: fadein 5s;
     opacity: 0.8;
     transition: opacity .5s ease-in-out;
 }
@@ -115,8 +120,8 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     text-decoration: none;
-    animation: fadein 3s;
     opacity: 0.8;
+    animation: fadein 5s;
     transition: opacity .5s ease-in-out;
 }
 
@@ -133,7 +138,7 @@ body {
     text-decoration: none;
     font-size: 25px;
     color: white;
-    animation: fadein 3s;
+    animation: fadein 6s;
     opacity: 0.8;
     transition: opacity .5s ease-in-out;
     list-style: none;
