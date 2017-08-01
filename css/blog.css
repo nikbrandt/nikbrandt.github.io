@@ -1,0 +1,13 @@
+.left {
+    margin-left: 25px;
+}
+
+.left a, .side-nav a {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.particles-js {
+    position: absolute;
+    z-index: -10;
+}
