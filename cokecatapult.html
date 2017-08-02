@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coke Catapult</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game">
+            <img alt="Coke Catapult" src="http://i.imgur.com/GqliYRW.jpg" id="clickToUpdate" onclick="changeImage()" />
+        </div>
+        <div class="info">
+            <h3 id="title">Coke Catapult</h3>
+            <p id="info">Game drawings made by Silent Chinese Crested Dog/CaptainCow13, each frame hand drawn on an old iPad 2.<br/>
+                Game animated and made alive by Gymnophoria.</p>
+            <p id="enjoy">Enjoy the game! The only control is clicking.</p>
+            <p id="footer"><br/><br/><br/>Gymnophoria's Website<br/></p>
+            <p id="links"><a href="/">home</a><br/><a href="blog.html">blog</a><br/><a href="screenshots.html">screenshots</a><br/><a href="hof.html">hall of fame</a></p>
+        </div>
+    </div>
+
+    <script language="javascript">
+        function changeImage() {
+            if (document.getElementById('clickToUpdate').src === 'http://i.imgur.com/GqliYRW.jpg') {
+                document.getElementById('clickToUpdate').src = 'http://i.imgur.com/VJ0SECd.jpg';
+            } else if (document.getElementById('clickToUpdate').src === 'http://i.imgur.com/VJ0SECd.jpg') {
+                document.getElementById('clickToUpdate').src = 'http://i.imgur.com/JRQav8i.gif';
+                setTimeout(function() {
+                    document.getElementById('clickToUpdate').src = 'http://i.imgur.com/cI4Jjnv.jpg';
+                }, 3400)
+            } else {
+                document.getElementById('clickToUpdate').src = 'http://i.imgur.com/GqliYRW.jpg';
+            }
+        }
+    </script>
+
+    <style>
+        .wrapper {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .game {
+            width: 66%;
+            float: left;
+        }
+
+        #title {
+            font-family: "Roboto", sans-serif;
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        #clickToUpdate {
+            width: 98%;
+            height: auto;
+        }
+
+        #info {
+            overflow: hidden;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+        }
+
+        #enjoy {
+            font-family: "Roboto", sans-serif;
+            font-size: 23px;
+        }
+
+        #footer {
+            font-family: "Roboto", sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+        }
+
+        a {
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            color: #5f5f5f;
+            text-decoration: none;
+            font-weight: 100;
+        }
+
+        a:hover {
+            color: black;
+        }
+    </style>
+</body>
+</html>
