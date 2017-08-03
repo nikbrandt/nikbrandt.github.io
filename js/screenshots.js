@@ -1,3 +1,5 @@
+$(".button-collapse").sideNav();
+
 $(document).ready(function() {
     // add files to this array.
     var files = [ 'http://www.use.com/images/s_5/c4f9a1022967fe328a38_1.jpg',
