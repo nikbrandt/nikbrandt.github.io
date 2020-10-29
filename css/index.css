@@ -22,6 +22,7 @@ body {
     left: 50%;
     position: absolute;
     color: white;
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -44,39 +45,26 @@ body {
     opacity: 1;
 }
 
-#definition {
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    left: 50%;
-    position: absolute;
-    color: rgba(0, 0, 0, 0);
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    text-decoration: none;
-    transition: color .5s ease-in-out;
-}
-
-#definition:hover {
-    color: white;
+.wrapper {
+    text-align: center;
+    width: 165px;
+    margin: auto;
+    padding-top: 20px;
 }
 
 #discord {
-    display: block;
+    /*display: block;
     margin: 0;
     padding: 0;
     top: 190%;
     right: 210px;
     position: absolute;
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);*/
+    float: right;
     text-decoration: none;
     animation: fadein 5s;
     opacity: 0.8;
@@ -88,16 +76,18 @@ body {
 }
 
 #github {
-    display: block;
+    /*display: block;
     margin: 0;
     padding: 0;
     top: 135px;
     left: 180px;
     position: absolute;
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);*/
+    float: left;
     text-decoration: none;
     animation: fadein 5s;
     opacity: 0.8;
@@ -105,27 +95,6 @@ body {
 }
 
 #github:hover {
-    opacity: 1;
-}
-
-#twitter {
-    display: block;
-    margin: 0;
-    padding: 0;
-    top: 190%;
-    left: 280px;
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    text-decoration: none;
-    opacity: 0.8;
-    animation: fadein 5s;
-    transition: opacity .5s ease-in-out;
-}
-
-#twitter:hover {
     opacity: 1;
 }
 
